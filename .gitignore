@@ -1,0 +1,4 @@
+# TeX generates a lot of temporary files. Go for a whitelist ignore.
+*
+!*.tex
+!.gitignore
