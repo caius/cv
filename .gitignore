@@ -1,1 +1,2 @@
-*.md
+# Hugo default output directory
+/public

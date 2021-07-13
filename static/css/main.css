@@ -99,8 +99,10 @@ textarea {
      margin-bottom: 3em;
    }
 
-   h1 img {
+   img {
      float: right;
+     position: relative;
+     top: -4em;
    }
 
    table tr {

@@ -1,0 +1,26 @@
+verbose = true
+
+baseURL = "http://cv.caius.name"
+title = "CV - Caius Durling"
+theme = "cv"
+
+languageCode = "en-gb"
+
+disableKinds = ["section", "taxonomyTerm"]
+
+enableGitInfo = true
+
+[outputs]
+home = ["HTML"]
+
+[blackfriday]
+smartypants = false
+smartDashes = false
+extensions = ["strikethrough", "footnotes", "autoHeaderIds"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
+[author]
+  name = "Caius Durling"
