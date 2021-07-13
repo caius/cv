@@ -8,4 +8,4 @@ clean:
 
 .PHONY: deploy
 deploy: build
-	scp -r nonus3.vm.caius.name:www/cv.caius.name/htdocs html/
+	rsync -r --progress public/ nonus3.vm.caius.name:www/cv.caius.name/htdocs/
