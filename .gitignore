@@ -1,2 +1,5 @@
 # Hugo default output directory
 /public
+
+# Terraform internals
+.terraform/
